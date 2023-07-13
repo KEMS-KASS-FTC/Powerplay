@@ -6,16 +6,12 @@ import com.qualcomm.robotcore.eventloop.opmode.Autonomous;
 import com.qualcomm.robotcore.eventloop.opmode.Disabled;
 import com.qualcomm.robotcore.eventloop.opmode.LinearOpMode;
 
-import org.firstinspires.ftc.teamcode.drive.SampleMecanumDrive;
-import org.firstinspires.ftc.teamcode.trajectorysequence.TrajectorySequence;
+import org.firstinspires.ftc.teamcode.SampleCode.RobotObjects.drive.SampleMecanumDrive;
+import org.firstinspires.ftc.teamcode.SampleCode.RobotObjects.trajectorysequence.TrajectorySequence;
 
 import com.qualcomm.robotcore.hardware.DcMotor;
 import com.qualcomm.robotcore.hardware.DcMotorEx;
-import com.qualcomm.robotcore.hardware.Gamepad;
 import com.qualcomm.robotcore.hardware.Servo;
-import org.firstinspires.ftc.teamcode.RobotObjects.EPIC.Mecanum_Wheels;
-
-import org.firstinspires.ftc.robotcore.external.Telemetry;
 
 @Autonomous(name = "TestAuton")
 @Disabled

@@ -3,7 +3,9 @@ package org.firstinspires.ftc.teamcode;
 import com.qualcomm.robotcore.eventloop.opmode.LinearOpMode;
 import com.qualcomm.robotcore.eventloop.opmode.TeleOp;
 
-import org.firstinspires.ftc.teamcode.RobotObjects.EPIC.Arm2023;
+import org.firstinspires.ftc.teamcode.SampleCode.RobotObjects.EPIC.Arm2023;
+import com.qualcomm.robotcore.eventloop.opmode.Disabled;
+@Disabled
 
 @TeleOp(name = "TestArm")
 public class TestArm extends LinearOpMode{
